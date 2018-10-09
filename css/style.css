@@ -4,7 +4,7 @@
 }
 
 body {
-	line-height: 1;
+	line-height: 1.5;
   font-family: sans-serif;
   font-size: 16px;
 }
@@ -22,6 +22,8 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -33,9 +35,13 @@ body {
   font-size: 10px;
 }
 
+.fa-2x{
+  float:right;
+}
+
 .container {
-  margin: 0 auto;
-  padding: 3%;
+  margin: 0 10px 10px auto;
+  padding:3%;
   border: 1%;
   width: 575px;
 }
@@ -46,25 +52,26 @@ nav {
   position: fixed;
   width: 575px;
   display: block;
-}
-
-
-.arrow {
-  float: inline;
+  float: left;
 }
 
 .location: hover {
-  bacground: gray;
+  background-color: gray;
   width: 100%;
+}
+
+.location {
+  border: 3px black;
+  width: 100%;
+  border-bottom: 1px solid gray;
 }
 
 .restaurant-list {
   background-color: #aaa;
-  border: 3px solid #fff;
+  border: 3px solid gray;
   float: left;
   margin: 0 0 10px 0;
-  width: 100%;
-  
+  width: 80%;
 }
 
 h1{
@@ -77,10 +84,7 @@ h3 {
   line-height: 90%;
 }
 
-
 div {
   float: left;
-  margin: 10px 1% 0 1%;
-  width: 100%;
+  margin: 0px 1% 0 1%;
 }
-
