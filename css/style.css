@@ -36,21 +36,11 @@ body {
 }
 
 .container {
-  margin: 0 10px 10px auto;
+  margin: 0 auto;
   padding:3%;
   border: 1%;
   width: 575px;
 }
-.top-box {
-  background-color: black;
-  position: absolute;
-  display: inline-block;
-  margin: 0 10px 10px auto;
-  padding:3%;
-  border: 1%;
-  width: 575px;
-}
-
 
 
 nav {
