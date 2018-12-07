@@ -86,6 +86,6 @@ h3 {
 }
 
 div {
-  float: left;
   margin: 0px 1% 0 1%;
+  display: inline-block;
 }
