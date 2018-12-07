@@ -52,9 +52,7 @@ nav {
   float: left;
 }
 
-.location: hover {
-  color: blue;
-}
+
 
 .location {
   border: 3px black;
@@ -62,6 +60,10 @@ nav {
   padding: 2%;
   margin: 0 10px 10px 0;
   border-bottom: 1px solid gray;
+}
+
+.location: hover {
+  background-color: blue;
 }
 
 .restaurant-list {
