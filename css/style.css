@@ -63,7 +63,7 @@ nav {
   border-bottom: 1px solid gray;
 }
 
-.location: hover {
+.location a:hover {
   background-color: blue;
 }
 
