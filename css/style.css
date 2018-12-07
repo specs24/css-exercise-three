@@ -89,3 +89,7 @@ div {
   margin: 0px 1% 0 1%;
   display: inline-block;
 }
+
+.arrow {
+  float: right;
+}
