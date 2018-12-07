@@ -36,10 +36,10 @@ body {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 10px auto;
   padding:3%;
   border: 1%;
-  width: 575px;
+  width: 550px;
 }
 
 
