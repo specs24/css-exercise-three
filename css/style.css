@@ -63,8 +63,8 @@ nav {
   border-bottom: 1px solid gray;
 }
 
-.location a:hover {
-  background-color: blue;
+.restaurant-list :hover {
+  background-color: gray;
 }
 
 .restaurant-list {
